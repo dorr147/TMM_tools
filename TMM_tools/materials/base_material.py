@@ -1,0 +1,16 @@
+from abc import ABC, abstractmethod
+class Basic_Material(ABC):
+    def __init__(self):
+        ...
+    @abstractmethod
+    def get_n(self,f):
+        ...
+    @abstractmethod
+    def get_epsilon(self,f):
+        ...
+    @abstractmethod
+    def get_mu(self,f):
+        ...
+
+if __name__ == '__main__':
+    ...
